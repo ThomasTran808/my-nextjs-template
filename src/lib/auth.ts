@@ -22,6 +22,7 @@ declare module "next-auth" {
 }
 
 export const { auth, signIn, signOut, handlers } = NextAuth({
+    secret: "Xmtn263YTsiFyQufW7V5YmfYGa3pZMsc",
     providers: [Credentials({
         credentials: {
             email: {
